@@ -1,1 +1,1 @@
-{"Modules":[{"Source":"module/projects","Key":"1.project;module/projects","Version":"","Dir":".terraform/modules/d8bd36c039ef3e45eb6950c949beca38","Root":""}]}
+{"Modules":[{"Source":"module/projects","Key":"1.project;module/projects","Version":"","Dir":".terraform/modules/d8bd36c039ef3e45eb6950c949beca38","Root":""},{"Source":"module/service_account","Key":"1.service_account;module/service_account","Version":"","Dir":".terraform/modules/05386fa0444c6d37ea82dc7301e313b2","Root":""}]}

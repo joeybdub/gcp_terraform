@@ -8,12 +8,6 @@ resource "google_project" "project" {
     project_id      = "${random_id.id.hex}"
     billing_account = "${var.billing_account}"
 }
-resource "google_project_services" "project" {
- project = "${google_project.project.project_id}"
- services = [
-   "compute.googleapis.com"
- ]
-}
 
 output "project_id" {
  value = "${google_project.project.project_id}"
