@@ -4,5 +4,5 @@ module "project" {
 }
 module "service_account" {
   source                      = "module/service_account"
-  project_name                = "${var.project_name}"
+  project_name                = "${module.project.project_name}"
 }
